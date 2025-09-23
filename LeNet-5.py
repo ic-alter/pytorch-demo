@@ -159,4 +159,4 @@ def quick_infer_sample():
     pred = logits.argmax(dim=1).item()
     print(f"GT label: {label}, Pred: {pred}")
 
-quick_infer_sample()  # 需要时取消注释
+quick_infer_sample() 
